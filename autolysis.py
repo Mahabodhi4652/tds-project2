@@ -6,6 +6,7 @@ import seaborn as sns
 import chardet  # For detecting file encoding
 
 # Ensure AIPROXY_TOKEN is set
+print('Just Checking')
 AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
 if not AIPROXY_TOKEN:
     raise EnvironmentError("AIPROXY_TOKEN environment variable not set.")
